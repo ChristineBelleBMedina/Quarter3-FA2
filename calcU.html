@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calcUc.css">
+</head>
+<body>
+
+        <h2>calcU</h2>
+        <h3>This page is a simple calculator. <br> Input any value in each textboxes provided below. <br> Then, click on any of the arithmetic operation buttons that are also provided below to see the result.</h3>
+        
+        <input type="text" id="num1" placeholder="Num 1">
+        <input type="text" id="num2" placeholder="Num 2">
+
+        <br>
+        <br>
+    
+        
+        <button type="button" onclick="calcu('+')">+</button>
+        <button type="button" onclick="calcu('-')">-</button>
+        <button type="button" onclick="calcu('*')">*</button>
+        <button type="button" onclick="calcu('/')">/</button>
+        <button type="button" onclick="calcu('%')">%</button>
+
+        <p id="result">Results will be displayed here.</p>
+        <script src="calcUj.js"></script>   
+</body>
+</html>
